@@ -51,6 +51,7 @@
             // btn7
             // 
             btn7.BackColor = Color.Silver;
+            btn7.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             btn7.ForeColor = SystemColors.ControlText;
             btn7.Location = new Point(21, 110);
             btn7.Name = "btn7";
@@ -63,6 +64,7 @@
             // btn8
             // 
             btn8.BackColor = Color.Silver;
+            btn8.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             btn8.ForeColor = SystemColors.ControlText;
             btn8.Location = new Point(85, 110);
             btn8.Name = "btn8";
@@ -75,6 +77,7 @@
             // btn5
             // 
             btn5.BackColor = Color.Silver;
+            btn5.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             btn5.ForeColor = SystemColors.ControlText;
             btn5.Location = new Point(85, 174);
             btn5.Name = "btn5";
@@ -87,6 +90,7 @@
             // btn2
             // 
             btn2.BackColor = Color.Silver;
+            btn2.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             btn2.ForeColor = SystemColors.ControlText;
             btn2.Location = new Point(85, 240);
             btn2.Name = "btn2";
@@ -99,6 +103,7 @@
             // btn4
             // 
             btn4.BackColor = Color.Silver;
+            btn4.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             btn4.ForeColor = SystemColors.ControlText;
             btn4.Location = new Point(21, 174);
             btn4.Name = "btn4";
@@ -111,6 +116,7 @@
             // btn1
             // 
             btn1.BackColor = Color.Silver;
+            btn1.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             btn1.ForeColor = SystemColors.ControlText;
             btn1.Location = new Point(21, 240);
             btn1.Name = "btn1";
@@ -123,6 +129,7 @@
             // btn9
             // 
             btn9.BackColor = Color.Silver;
+            btn9.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             btn9.ForeColor = SystemColors.ControlText;
             btn9.Location = new Point(149, 110);
             btn9.Name = "btn9";
@@ -135,6 +142,7 @@
             // btn6
             // 
             btn6.BackColor = Color.Silver;
+            btn6.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             btn6.ForeColor = SystemColors.ControlText;
             btn6.Location = new Point(149, 174);
             btn6.Name = "btn6";
@@ -147,6 +155,7 @@
             // btn3
             // 
             btn3.BackColor = Color.Silver;
+            btn3.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             btn3.ForeColor = SystemColors.ControlText;
             btn3.Location = new Point(149, 240);
             btn3.Name = "btn3";
@@ -159,6 +168,7 @@
             // btnDivicion
             // 
             btnDivicion.BackColor = Color.Silver;
+            btnDivicion.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             btnDivicion.ForeColor = Color.Green;
             btnDivicion.Location = new Point(214, 110);
             btnDivicion.Name = "btnDivicion";
@@ -170,6 +180,7 @@
             // btnMultiplicacion
             // 
             btnMultiplicacion.BackColor = Color.Silver;
+            btnMultiplicacion.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             btnMultiplicacion.ForeColor = Color.Green;
             btnMultiplicacion.Location = new Point(214, 174);
             btnMultiplicacion.Name = "btnMultiplicacion";
@@ -181,6 +192,7 @@
             // btnSuma
             // 
             btnSuma.BackColor = Color.Silver;
+            btnSuma.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             btnSuma.ForeColor = Color.Green;
             btnSuma.Location = new Point(214, 240);
             btnSuma.Name = "btnSuma";
@@ -191,15 +203,18 @@
             // 
             // tbDisplay
             // 
-            tbDisplay.Location = new Point(21, 30);
+            tbDisplay.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
+            tbDisplay.Location = new Point(21, 32);
             tbDisplay.Multiline = true;
             tbDisplay.Name = "tbDisplay";
+            tbDisplay.RightToLeft = RightToLeft.Yes;
             tbDisplay.Size = new Size(186, 54);
             tbDisplay.TabIndex = 16;
             // 
             // btnPunto
             // 
             btnPunto.BackColor = Color.Silver;
+            btnPunto.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             btnPunto.ForeColor = SystemColors.ControlText;
             btnPunto.Location = new Point(21, 304);
             btnPunto.Name = "btnPunto";
@@ -211,6 +226,7 @@
             // btn0
             // 
             btn0.BackColor = Color.Silver;
+            btn0.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             btn0.ForeColor = SystemColors.ControlText;
             btn0.Location = new Point(85, 304);
             btn0.Name = "btn0";
@@ -223,6 +239,7 @@
             // btnIgual
             // 
             btnIgual.BackColor = Color.Silver;
+            btnIgual.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             btnIgual.ForeColor = Color.Red;
             btnIgual.Location = new Point(149, 304);
             btnIgual.Name = "btnIgual";
@@ -235,6 +252,7 @@
             // 
             btnResta.BackColor = Color.Silver;
             btnResta.FlatAppearance.BorderColor = Color.White;
+            btnResta.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point);
             btnResta.ForeColor = Color.Green;
             btnResta.Location = new Point(213, 304);
             btnResta.Name = "btnResta";
@@ -246,6 +264,7 @@
             // btnClear
             // 
             btnClear.BackColor = SystemColors.ActiveBorder;
+            btnClear.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             btnClear.ForeColor = Color.Maroon;
             btnClear.Location = new Point(214, 30);
             btnClear.Name = "btnClear";
@@ -278,8 +297,10 @@
             Controls.Add(btn5);
             Controls.Add(btn8);
             Controls.Add(btn7);
+            Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
