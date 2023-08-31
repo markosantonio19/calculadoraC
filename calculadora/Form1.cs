@@ -104,6 +104,9 @@ namespace calculadora
                 case 3:
                     resultado = valor1 * valor2;
                     break;
+                case 4:
+                    resultado = valor1 / valor2;
+                    break;
             }
 
             tbDisplay.Text = resultado.ToString();
@@ -137,6 +140,20 @@ namespace calculadora
             valor1 = Convert.ToDouble(tbDisplay.Text);
 
             tbDisplay.Text = "";
+        }
+
+        private void btnDivicion_Click(object sender, EventArgs e)
+        {
+            // boton divicion
+            operacion = 4;
+            valor1 = Convert.ToDouble(tbDisplay.Text);
+
+            tbDisplay.Text = "";
+        }
+
+        private void btnPunto_Click(object sender, EventArgs e)
+        {
+            // boton punto
         }
     }
 }

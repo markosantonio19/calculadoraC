@@ -176,6 +176,7 @@
             btnDivicion.TabIndex = 13;
             btnDivicion.Text = "/";
             btnDivicion.UseVisualStyleBackColor = false;
+            btnDivicion.Click += btnDivicion_Click;
             // 
             // btnMultiplicacion
             // 
@@ -224,6 +225,7 @@
             btnPunto.TabIndex = 17;
             btnPunto.Text = ".";
             btnPunto.UseVisualStyleBackColor = false;
+            btnPunto.Click += btnPunto_Click;
             // 
             // btn0
             // 
