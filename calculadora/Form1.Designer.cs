@@ -221,6 +221,7 @@
             btnPunto.ForeColor = SystemColors.ControlText;
             btnPunto.Location = new Point(21, 304);
             btnPunto.Name = "btnPunto";
+            btnPunto.RightToLeft = RightToLeft.Yes;
             btnPunto.Size = new Size(58, 58);
             btnPunto.TabIndex = 17;
             btnPunto.Text = ".";

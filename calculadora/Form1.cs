@@ -154,6 +154,7 @@ namespace calculadora
         private void btnPunto_Click(object sender, EventArgs e)
         {
             // boton punto
+            tbDisplay.Text = tbDisplay.Text + (".");
         }
     }
 }
