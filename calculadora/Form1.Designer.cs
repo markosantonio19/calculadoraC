@@ -206,6 +206,7 @@
             // 
             // tbDisplay
             // 
+            tbDisplay.BackColor = SystemColors.InactiveCaption;
             tbDisplay.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             tbDisplay.Location = new Point(21, 32);
             tbDisplay.Multiline = true;
@@ -285,7 +286,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(290, 386);
+            ClientSize = new Size(284, 370);
             Controls.Add(btnClear);
             Controls.Add(btnResta);
             Controls.Add(btnIgual);
