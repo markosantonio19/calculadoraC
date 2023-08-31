@@ -262,6 +262,7 @@
             btnResta.TabIndex = 20;
             btnResta.Text = "-";
             btnResta.UseVisualStyleBackColor = false;
+            btnResta.Click += btnResta_Click;
             // 
             // btnClear
             // 

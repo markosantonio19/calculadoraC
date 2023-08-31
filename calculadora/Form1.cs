@@ -6,6 +6,7 @@ namespace calculadora
         private double valor2;
 
         private double resultado;
+        private int operacion;
 
         public Form1()
         {
@@ -88,7 +89,19 @@ namespace calculadora
             //boton igual 
             valor2 = Convert.ToDouble(tbDisplay.Text);
 
-            resultado = valor1 + valor2;
+           
+
+            switch (operacion)
+            {
+                case 1:
+                    resultado = valor1 + valor2;
+                    break;
+
+                case 2:
+                    resultado = valor1 - valor2;
+                    break;
+            }
+
             tbDisplay.Text = resultado.ToString();
 
 
@@ -97,9 +110,20 @@ namespace calculadora
         private void btnSuma_Click(object sender, EventArgs e)
         {
             //boton suma 
-            valor1 = Convert.ToDouble (tbDisplay.Text);
+            operacion = 1;
+            valor1 = Convert.ToDouble(tbDisplay.Text);
 
             tbDisplay.Text = "";
+        }
+
+        private void btnResta_Click(object sender, EventArgs e)
+        {
+            //boton resta
+            operacion = 2;
+            valor1 = Convert.ToDouble(tbDisplay.Text);
+
+            tbDisplay.Text = "";
+
         }
     }
 }
