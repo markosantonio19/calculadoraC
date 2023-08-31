@@ -15,3 +15,4 @@ C:\Users\Alumno\Desktop\c\calculadora\obj\Debug\net6.0-windows\refint\calculador
 C:\Users\Alumno\Desktop\c\calculadora\obj\Debug\net6.0-windows\calculadora.pdb
 C:\Users\Alumno\Desktop\c\calculadora\obj\Debug\net6.0-windows\calculadora.genruntimeconfig.cache
 C:\Users\Alumno\Desktop\c\calculadora\obj\Debug\net6.0-windows\ref\calculadora.dll
+C:\Users\Alumno\Desktop\c\calculadora\obj\Debug\net6.0-windows\calculadora.Properties.Resources.resources
