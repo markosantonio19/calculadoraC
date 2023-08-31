@@ -45,6 +45,7 @@
             btn0 = new Button();
             btnIgual = new Button();
             btnResta = new Button();
+            btnClear = new Button();
             SuspendLayout();
             // 
             // btn7
@@ -190,10 +191,10 @@
             // 
             // tbDisplay
             // 
-            tbDisplay.Location = new Point(21, 29);
+            tbDisplay.Location = new Point(21, 30);
             tbDisplay.Multiline = true;
             tbDisplay.Name = "tbDisplay";
-            tbDisplay.Size = new Size(250, 54);
+            tbDisplay.Size = new Size(186, 54);
             tbDisplay.TabIndex = 16;
             // 
             // btnPunto
@@ -242,11 +243,24 @@
             btnResta.Text = "-";
             btnResta.UseVisualStyleBackColor = false;
             // 
+            // btnClear
+            // 
+            btnClear.BackColor = SystemColors.ActiveBorder;
+            btnClear.ForeColor = Color.Maroon;
+            btnClear.Location = new Point(214, 30);
+            btnClear.Name = "btnClear";
+            btnClear.Size = new Size(58, 56);
+            btnClear.TabIndex = 21;
+            btnClear.Text = "C";
+            btnClear.UseVisualStyleBackColor = false;
+            btnClear.Click += btnClear_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(290, 386);
+            Controls.Add(btnClear);
             Controls.Add(btnResta);
             Controls.Add(btnIgual);
             Controls.Add(btn0);
@@ -288,5 +302,6 @@
         private Button btn0;
         private Button btnIgual;
         private Button btnResta;
+        private Button btnClear;
     }
 }
