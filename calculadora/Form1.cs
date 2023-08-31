@@ -89,7 +89,7 @@ namespace calculadora
             //boton igual 
             valor2 = Convert.ToDouble(tbDisplay.Text);
 
-           
+
 
             switch (operacion)
             {
@@ -99,6 +99,10 @@ namespace calculadora
 
                 case 2:
                     resultado = valor1 - valor2;
+                    break;
+
+                case 3:
+                    resultado = valor1 * valor2;
                     break;
             }
 
@@ -124,6 +128,15 @@ namespace calculadora
 
             tbDisplay.Text = "";
 
+        }
+
+        private void btnMultiplicacion_Click(object sender, EventArgs e)
+        {
+            // boton multiplicacion
+            operacion = 3;
+            valor1 = Convert.ToDouble(tbDisplay.Text);
+
+            tbDisplay.Text = "";
         }
     }
 }

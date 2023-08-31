@@ -188,6 +188,7 @@
             btnMultiplicacion.TabIndex = 14;
             btnMultiplicacion.Text = "x";
             btnMultiplicacion.UseVisualStyleBackColor = false;
+            btnMultiplicacion.Click += btnMultiplicacion_Click;
             // 
             // btnSuma
             // 
