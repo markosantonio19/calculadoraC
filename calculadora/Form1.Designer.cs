@@ -200,6 +200,7 @@
             btnSuma.TabIndex = 15;
             btnSuma.Text = "+";
             btnSuma.UseVisualStyleBackColor = false;
+            btnSuma.Click += btnSuma_Click;
             // 
             // tbDisplay
             // 
@@ -247,6 +248,7 @@
             btnIgual.TabIndex = 19;
             btnIgual.Text = "=";
             btnIgual.UseVisualStyleBackColor = false;
+            btnIgual.Click += btnIgual_Click;
             // 
             // btnResta
             // 

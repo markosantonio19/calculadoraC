@@ -2,6 +2,11 @@ namespace calculadora
 {
     public partial class Form1 : Form
     {
+        private double valor1;
+        private double valor2;
+
+        private double resultado;
+
         public Form1()
         {
             InitializeComponent();
@@ -76,6 +81,25 @@ namespace calculadora
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnIgual_Click(object sender, EventArgs e)
+        {
+            //boton igual 
+            valor2 = Convert.ToDouble(tbDisplay.Text);
+
+            resultado = valor1 + valor2;
+            tbDisplay.Text = resultado.ToString();
+
+
+        }
+
+        private void btnSuma_Click(object sender, EventArgs e)
+        {
+            //boton suma 
+            valor1 = Convert.ToDouble (tbDisplay.Text);
+
+            tbDisplay.Text = "";
         }
     }
 }
